@@ -10,7 +10,7 @@ env:
     CLUSTER_NAME: K8Workshop
     CLUSTER_RESOURCE_GROUP: Srini-Workshop
     CONTAINER_NAME: image-workflow-1679999505805
-    DEPLOYMENT_MANIFEST_PATH: './MANIFEST.YAML'
+    DEPLOYMENT_MANIFEST_PATH: 'MANIFEST.YAML'
 jobs:
     buildImage:
         permissions:
